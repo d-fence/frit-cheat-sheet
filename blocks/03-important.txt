@@ -1,0 +1,7 @@
+Important files
+
+* Everything goes in ".frit" directory
+* configuration file is in ".frit/config" file
+* Mounted filesystems are in ".frit/filesystems"
+* Mounted containers are in ".frit/containers"
+* ...
