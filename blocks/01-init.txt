@@ -1,0 +1,6 @@
+Initialize working directory
+~~~
+$ frit init
+~~~
+
+This will create a .frit directory in the current directory, alongside with a basic empty cofig file.
