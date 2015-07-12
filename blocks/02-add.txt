@@ -1,0 +1,15 @@
+Add an evidence
+
+~~~
+$ frit add evidence_file_name
+~~~
+
+This command will add the file "evidence_file_name" into the .frit/config file.
+Frit will try to discover the file format and filesystems contained in evidence.
+Known containers formats:
+
+* Simple .dd
+* Encase E01
+* Aff
+* Directory
+* iso file
