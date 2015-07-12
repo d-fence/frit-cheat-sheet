@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="cheat-sheet.css">
+</head>
+<body>
+<h1 id="frit-cheat-sheet">Frit cheat sheet</h1>
+<div class="column-block">
+
+  
+    <div class="cheat-block">
+        <h2>Initialize working directory</h2>
+        <div class="cheat-block-content">
+            <pre><code>$ frit init
+</code></pre>
+
+<p>This will create a .frit directory in the current directory, alongside with a basic empty cofig file.</p>
+        </div>
+    </div>
+  
+    <div class="cheat-block">
+        <h2>Add an evidence</h2>
+        <div class="cheat-block-content">
+            <pre><code>$ frit add evidence_file_name
+</code></pre>
+
+<p>This command will add the file "evidence_file_name" into the .frit/config file.
+Frit will try to discover the file format and filesystems contained in evidence.
+Known containers formats:</p>
+<ul>
+<li>Simple .dd</li>
+<li>Encase E01</li>
+<li>Aff</li>
+<li>Directory</li>
+<li>iso file</li>
+</ul>
+        </div>
+    </div>
+  
+    <div class="cheat-block">
+        <h2>Important files</h2>
+        <div class="cheat-block-content">
+            <ul>
+<li>Everything goes in ".frit" directory</li>
+<li>configuration file is in ".frit/config" file</li>
+<li>Mounted filesystems are in ".frit/filesystems"</li>
+<li>Mounted containers are in ".frit/containers"</li>
+<li>...</li>
+</ul>
+        </div>
+    </div>
+  
+    <div class="cheat-block">
+        <h2>Mount</h2>
+        <div class="cheat-block-content">
+            <pre><code>$ frit mount
+</code></pre>
+
+<p>This command will mount every filesystems from every evidences.</p>
+<pre><code>$ frit mount Evidence3
+</code></pre>
+<p>This command will mount every filesystems found on Evidence3 container.</p>
+        </div>
+    </div>
+  
+
+</div>
+</body>
+</html>
