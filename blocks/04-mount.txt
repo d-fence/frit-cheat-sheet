@@ -1,0 +1,10 @@
+Mount
+~~~
+$ frit mount
+~~~
+
+This command will mount every filesystems from every evidences.
+
+    $ frit mount Evidence3
+
+This command will mount every filesystems found on Evidence3 container.
