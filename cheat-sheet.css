@@ -1,0 +1,88 @@
+body {
+	font-family: verdana, arial, sans-serif;
+	width: 95%;
+}
+
+.column-block {
+	-webkit-column-count: 4;
+	-webkit-column-rule: 1px solid #ccc;
+	-moz-column-count: 4;
+	-moz-column-rule: 1px solid #ccc;
+	column-count:4;
+	column-rule: 1px solid #ccc;
+}
+
+.cheat-block {
+	background-color: #2476A3;
+	-webkit-column-break-inside: avoid;
+   	-moz-column-break-inside: avoid;
+   	column-break-inside: avoid;
+   	page-break-inside: avoid;
+	border-bottom: 3px solid #2476A3;
+	border-radius: 4px;
+	margin-bottom: 10px;
+}
+
+.cheat-block h4 {
+	font-familly: "Source Sans Pro",sans-serif;
+	color: #B3D8EC;
+	font-weight: bold;
+	padding-left: 0.5em;
+	padding-right: 0em;
+	padding-top: 0.5em;
+	padding-bottom: 0em;
+	-webkit-column-break-inside: avoid;
+   	-moz-column-break-inside: avoid;
+   	column-break-inside: avoid;
+   	page-break-inside: avoid;
+}
+
+.cheat-block h2 {
+	font-familly: "Source Sans Pro",sans-serif;
+	color: #B3D8EC;
+	font-weight: bold;
+	padding-left: 0.5em;
+	padding-right: 0em;
+	padding-top: 0.5em;
+	padding-bottom: 0em;
+	-webkit-column-break-inside: avoid;
+   	-moz-column-break-inside: avoid;
+   	column-break-inside: avoid;
+   	page-break-inside: avoid;
+}
+
+.cheat-block-content {
+	padding-left: 0.5em;
+	padding-top: 0.5em;
+	background-color: #ADD4E9;
+	-webkit-column-break-inside: avoid;
+   	-moz-column-break-inside: avoid;
+   	column-break-inside: avoid;
+   	page-break-inside: avoid;
+}
+
+.code-block {
+	background-color: #D4EAF6;
+	border-radius: 4px;
+	border-left: 8px solid;
+	border-color: #E18728;
+	padding: 0.2em;
+	margin-right: 0.5em;
+	-webkit-column-break-inside: avoid;
+   	-moz-column-break-inside: avoid;
+   	column-break-inside: avoid;
+   	page-break-inside: avoid;
+}
+
+.cheat-block-content pre {
+	background-color: #D4EAF6;
+	border-radius: 4px;
+	border-left: 8px solid;
+	border-color: #E18728;
+	padding: 0.2em;
+	margin-right: 0.5em;
+	-webkit-column-break-inside: avoid;
+   	-moz-column-break-inside: avoid;
+   	column-break-inside: avoid;
+   	page-break-inside: avoid;
+}
